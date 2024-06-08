@@ -1,0 +1,94 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ */
+
+.container__a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding: 2%;
+}
+.card__a {
+  width: 320px;
+  height: auto;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  background-color: white;
+  padding: 25px;
+  border-radius: 30px;
+  gap: 20px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.13), 0 1px 2px 0 rgba(0, 0, 0, 0.11);
+}
+.card__a > p {
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
+.wrapper__a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result__location {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 7px;
+}
+.box__a {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+.box__a > img {
+  width: 22px;
+}
+.box__a > span {
+  color: rgba(0, 0, 0, 0.616);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.box__a > a {
+  color: rgba(0, 0, 0, 0.616);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.result__location > p {
+  width: 300px;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.result__location-number {
+  width: 300px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 7px;
+}
+.result__location-number > a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
