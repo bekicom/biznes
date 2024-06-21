@@ -41,11 +41,11 @@
                 </div>
                 <div class="cs_toolbox">
                     <div class="dropdown-lang position-relative d-block d-lg-none">
-                        <a class="dropdown-toggle text-white">
+                        <a class="dropdown-toggle text-white" href="./index.html">
                             Uz </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/ru">&nbsp;Русский</a></li>
-                            <li><a class="dropdown-item" href="/en">English</a></li>
+                            <li><a class="dropdown-item" href="./ru-index.html">&nbsp;Русский</a></li>
+                            <li><a class="dropdown-item" href="./eng-index.html">English</a></li>
                         </ul>
                     </div>
                     <div class="cs_header_contact d-flex">
@@ -74,7 +74,7 @@
                     </a>
                     <div
                         style="color: #fff; margin-right: 30px; margin-left: 5px; line-height: 20px; font-size: 14px; font-weight: 500;">
-                        <a class="cs_site_branding" href="https://fortunabiznes.uz/uz">
+                        <a class="cs_site_branding" href="./index.html">
                         </a><a>Hamroh Mikromoliya</a> <br> <a> Tashkiloti</a>
                     </div>
 
@@ -110,13 +110,11 @@
                 <div class="cs_main_header_right">
                     <div class="cs_toolbox">
                         <div class="dropdown-lang position-relative d-none d-lg-block">
-                            <a class="dropdown-toggle text-white" href="#">
+                            <a class="dropdown-toggle text-white" href="./index.html">
                                 Uz </a>
                             <ul class="dropdown-menu">
-                                <!--                                <li><a class="dropdown-item" href="/ru">Русский</a></li>-->
-                                <!--                                <li><a class="dropdown-item" href="/en">English</a></li>-->
-                                <li><a class="dropdown-item" href="/ru">&nbsp;Русский</a></li>
-                                <li><a class="dropdown-item" href="/en">English</a></li>
+                                <li><a class="dropdown-item" href="./ru-index.html">&nbsp;Русский</a></li>
+                                <li><a class="dropdown-item" href="./eng-index.html">English</a></li>
                             </ul>
                         </div>
                         <div class="cs_header_contact">
@@ -1528,160 +1526,159 @@
 
 <!-- Start Footer -->
 <footer class="cs_footer background-filled text-white"
-    data-src="https://fortunabiznes.uz/wp-content/themes/wp-bootstrap-starter/assets/img/footer_bg.jpeg">
-    <div class="container">
-        <div
-            class="cs_footer_top d-flex justify-content-center align-items-start align-items-md-center cs_pt_46 cs_pb_46 cs_column_gap_15 cs_row_gap_15 flex-md-row  flex-column">
-            <div class="cs_footer_logo wow zoomIn d-lg-flex" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                <!--            <img src="assets/img/logo.svg" alt="Logo">-->
-                <a class="cs_site_branding" href="#">
-                    <div>
-                        <img id="hamrohimg" src="images/hamroh.png" alt="Logo">
-                    </div>
-                </a>
-                <div
-                    style="color: #fff; margin-right: 30px; margin-left: 5px; line-height: 20px; font-size: 14px; font-weight: 500;">
-                    <a class="cs_site_branding" href="#">
-                    </a><a>Hamroh Mikromoliya</a> <br> <a> Tashkiloti</a>
+data-src="https://fortunabiznes.uz/wp-content/themes/wp-bootstrap-starter/assets/img/footer_bg.jpeg">
+<div class="container">
+    <div
+        class="cs_footer_top d-flex justify-content-center align-items-start align-items-md-center cs_pt_46 cs_pb_46 cs_column_gap_15 cs_row_gap_15 flex-md-row  flex-column">
+        <div class="cs_footer_logo wow zoomIn d-lg-flex" data-wow-duration="0.8s" data-wow-delay="0.2s">
+            <!--            <img src="assets/img/logo.svg" alt="Logo">-->
+            <a class="cs_site_branding" href="./index.html">
+                <div>
+                    <img id="hamrohimg" src="images/hamroh.png" alt="Logo">
                 </div>
-
+            </a>
+            <div
+                style="color: #fff; margin-right: 30px; margin-left: 5px; line-height: 20px; font-size: 14px; font-weight: 500;">
+                <a class="cs_site_branding" href="https://fortunabiznes.uz/uz">
+                </a><a>Hamroh Mikromoliya</a> <br> <a> Tashkiloti</a>
             </div>
+
         </div>
-        <div class="cs_footer_main cs_pt_30 cs_pb_30">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="cs_footer_item cs_pt_20 cs_pb_20">
-                        <div class="cs_newsletter cs_style_1">
-                            <h2 class="cs_newsletter_title text-white cs_fs_22 cs_mb_9">
-                                Valyuta kurslari </h2>
-                        </div>
-                        <div
-                            style="border-radius: 8px; border: 1px solid #3E424A; background: rgba(255, 255, 255, 0.05); padding: 34px;">
-                            <p id="currencyTabletitle"></p>
-                            <table id="currencyTable">
-                            </table>
-                        </div>
+    </div>
+    <div class="cs_footer_main cs_pt_30 cs_pb_30">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="cs_footer_item cs_pt_20 cs_pb_20">
+                    <div class="cs_newsletter cs_style_1">
+                        <h2 class="cs_newsletter_title text-white cs_fs_22 cs_mb_9">
+                            Valyuta kurslari </h2>
+                    </div>
+                    <div
+                        style="border-radius: 8px; border: 1px solid #3E424A; background: rgba(255, 255, 255, 0.05); padding: 34px;">
+                        <p id="currencyTabletitle"></p>
+                        <table id="currencyTable">
+                        </table>
+                    </div>
 
-                        <script>
-                            // Make an HTTP request to fetch JSON data
-                            fetch('https://cbu.uz/uz/arkhiv-kursov-valyut/json/')
-                                .then(response => response.json())
-                                .then(data => {
-                                    // Check if JSON decoding was successful
-                                    if (data !== null) {
-                                        // Create a table row for MB Davlat kursi
-                                        var mbRow = '<tr><th colspan="4" class="text-center">MB Davlat kursi: ' + data[0]['Date'] + '</th></tr>';
-                                        document.getElementById('currencyTabletitle').innerHTML += mbRow;
+                    <script>
+                        // Make an HTTP request to fetch JSON data
+                        fetch('https://cbu.uz/uz/arkhiv-kursov-valyut/json/')
+                            .then(response => response.json())
+                            .then(data => {
+                                // Check if JSON decoding was successful
+                                if (data !== null) {
+                                    // Create a table row for MB Davlat kursi
+                                    var mbRow = '<tr><th colspan="4" class="text-center">MB Davlat kursi: ' + data[0]['Date'] + '</th></tr>';
+                                    document.getElementById('currencyTabletitle').innerHTML += mbRow;
 
-                                        // Create table rows for currency data
-                                        for (var i = 0; i < 3; i++) {
-                                            var item = data[i];
-                                            var arr = ['Ccy', 'Rate', 'Diff'];
-                                            var txt_color, src;
+                                    // Create table rows for currency data
+                                    for (var i = 0; i < 3; i++) {
+                                        var item = data[i];
+                                        var arr = ['Ccy', 'Rate', 'Diff'];
+                                        var txt_color, src;
 
-                                            if (item['Diff'] < 0) {
-                                                txt_color = 'text-danger';
-                                                src = '/wp-content/themes/wp-bootstrap-starter/assets/img/flag/icon__chart_down.svg'; // Replace with the actual path
-                                            } else if (item['Diff'] > 0) {
-                                                txt_color = 'text-success';
-                                                src = '/wp-content/themes/wp-bootstrap-starter/assets/img/flag/icon__chart_up.svg'; // Replace with the actual path
-                                                item['Diff'] = '+' + Number(item['Diff']).toFixed(2);
-                                            } else {
-                                                txt_color = '-';
-                                            }
-
-                                            // Create a table row for each currency
-                                            var row = '<tr>' +
-                                                '<td><img style="border-radius: 50%;" width="30" src="/wp-content/themes/wp-bootstrap-starter/assets/img/flag/flag-' + i + '.png" alt=""></td>' +
-                                                '<td>1 ' + item['Ccy'] + ' = ' + item['Rate'] + '</td>' +
-                                                '<td class="' + txt_color + '">' + item['Diff'] + '</td>' +
-                                                '<td><img src="' + src + '" alt=""></td>' +
-                                                '</tr>';
-
-                                            document.getElementById('currencyTable').innerHTML += row;
+                                        if (item['Diff'] < 0) {
+                                            txt_color = 'text-danger';
+                                            src = '/wp-content/themes/wp-bootstrap-starter/assets/img/flag/icon__chart_down.svg'; // Replace with the actual path
+                                        } else if (item['Diff'] > 0) {
+                                            txt_color = 'text-success';
+                                            src = '/wp-content/themes/wp-bootstrap-starter/assets/img/flag/icon__chart_up.svg'; // Replace with the actual path
+                                            item['Diff'] = '+' + Number(item['Diff']).toFixed(2);
+                                        } else {
+                                            txt_color = '-';
                                         }
-                                    } else {
-                                        console.log('Error decoding JSON data.');
+
+                                        // Create a table row for each currency
+                                        var row = '<tr>' +
+                                            '<td><img style="border-radius: 50%;" width="30" src="/wp-content/themes/wp-bootstrap-starter/assets/img/flag/flag-' + i + '.png" alt=""></td>' +
+                                            '<td>1 ' + item['Ccy'] + ' = ' + item['Rate'] + '</td>' +
+                                            '<td class="' + txt_color + '">' + item['Diff'] + '</td>' +
+                                            '<td><img src="' + src + '" alt=""></td>' +
+                                            '</tr>';
+
+                                        document.getElementById('currencyTable').innerHTML += row;
                                     }
-                                })
-                                .catch(error => {
-                                    console.log('Error fetching JSON data: ' + error);
-                                });
-                        </script>
-                    </div>
+                                } else {
+                                    console.log('Error decoding JSON data.');
+                                }
+                            })
+                            .catch(error => {
+                                console.log('Error fetching JSON data: ' + error);
+                            });
+                    </script>
                 </div>
-                <div class="col-lg-4 offset-lg-1">
-                    <div class="cs_footer_item cs_pt_20 cs_pb_20">
-                        <ul class="cs_menu_widget text-uppercase d-block">
-                            <li class="py-3">
-                                <a href="./index.html">Asosiy</a>
-                            </li>
-                            <li class="py-3">
-                                <a href="./bizhaqqimizda.html">Biz haqimizda</a>
-                            </li>
-                            <li class="py-3">
-                                <a href="./kriditlar.htm">Kreditlar</a>
-                            </li>
-                            <li class="py-3">
-                                <a href="./filyalar.htm">Filiallar</a>
-                            </li>
-                            <li class="py-3">
-                                <a href="./ishorinlar.htm">Ish o’rinlari</a>
-                            </li>
-                            <li class="py-3">
-                                <a href="./savolar.htm">Savollar</a>
-                            </li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1">
+                <div class="cs_footer_item cs_pt_20 cs_pb_20">
+                    <ul class="cs_menu_widget text-uppercase d-block">
+                        <li class="py-3">
+                            <a href="./index.html">Asosiy</a>
+                        </li>
+                        <li class="py-3">
+                            <a href="./bizhaqqimizda.html">Biz haqimizda</a>
+                        </li>
+                        <li class="py-3">
+                            <a href="./kriditlar.htm">Kreditlar</a>
+                        </li>
+                        <li class="py-3">
+                            <a href="./filyalar.htm">Filiallar</a>
+                        </li>
+                        <li class="py-3">
+                            <a href="./ishorinlar.htm">Ish o’rinlari</a>
+                        </li>
+                        <li class="py-3">
+                            <a href="./savolar.htm">Savollar</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-3">
-                    <div class="cs_footer_item cs_pt_20 cs_pb_20">
-                        <div class="cs_newsletter cs_style_1">
-                            <h2 class="cs_newsletter_title text-white cs_fs_22 cs_mb_9">
-                                Aloqa </h2>
+            </div>
+            <div class="col-lg-3">
+                <div class="cs_footer_item cs_pt_20 cs_pb_20">
+                    <div class="cs_newsletter cs_style_1">
+                        <h2 class="cs_newsletter_title text-white cs_fs_22 cs_mb_9">
+                            Aloqa </h2>
+                    </div>
+                    <div class="d-flex my-3">
+                        <div class="align-items-center d-flex me-3">
+                            <i class="material-icons cs_fs_28">phone_in_talk</i>
                         </div>
-                        <div class="d-flex my-3">
-                            <div class="align-items-center d-flex me-3">
-                                <i class="material-icons cs_fs_28">phone_in_talk</i>
-                            </div>
-                            <div>
-                                <p class="cs_fs_13 mb-0">
-                                    Murojaat uchun </p>
-                                <a href="tel:+998558017010">
-                                    +998 55 801 70 10 </a>
-                            </div>
+                        <div>
+                            <p class="cs_fs_13 mb-0">
+                                Murojaat uchun </p>
+                            <a href="tel:+998558017010">
+                                +998 55 801 70 10 </a>
                         </div>
-                        <div class="d-flex my-3">
-                            <div class="align-items-center d-flex me-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
-                                    <path
-                                        d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 18H4V8L12 13L20 8V18ZM12 11L4 6H20L12 11Z"
-                                        fill="white"></path>
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="cs_fs_13 mb-0">
-                                    Elektron pochta </p>
-                                <a href="mailto:info@hamroh.uz">
-                                    info@hamroh.uz </a>
-                            </div>
+                    </div>
+                    <div class="d-flex my-3">
+                        <div class="align-items-center d-flex me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 18H4V8L12 13L20 8V18ZM12 11L4 6H20L12 11Z"
+                                    fill="white"></path>
+                            </svg>
                         </div>
-                        <div class="d-flex my-3">
-                            <div class="align-items-center d-flex me-3">
-                                <i class="material-icons cs_fs_28">location_on</i>
-                            </div>
-                            <div>
-                                <p class="cs_fs_13 mb-0">Bizning manzil </p>
-                                <a>Farg’ona viloyati, Buvayda tumani, Bog’i Eram ko’chasi 905-uy </a>
-                            </div>
+                        <div>
+                            <p class="cs_fs_13 mb-0">
+                                Elektron pochta </p>
+                            <a href="mailto:info@fortunabiznes.uz">
+                                info@hamroh.uz </a>
                         </div>
-                        <div class="cs_social_btns d-flex  cs_column_gap_15 cs_row_gap_15 cs_transition_5 mt-4">
-                            <a href=""><img src="./icons/telegram.svg" alt=""></a>
-                            <a href=""><img src="./icons/icons8-instagram.svg" alt=""></a>
-                            <a href=""><img src="./icons/icons8-youtube.svg" alt=""></a>
-                            <a href=""><img src="./icons/facebook.svg" alt=""></a>
+                    </div>
+                    <div class="d-flex my-3">
+                        <div class="align-items-center d-flex me-3">
+                            <i class="material-icons cs_fs_28">location_on</i>
                         </div>
+                        <div>
+                            <p class="cs_fs_13 mb-0">Bizning manzil </p>
+                            <a>Farg’ona viloyati, Buvayda tumani, Bog’i Eram ko’chasi 905-uy </a>
+                        </div>
+                    </div>
+                    <div class="cs_social_btns d-flex  cs_column_gap_15 cs_row_gap_15 cs_transition_5 mt-4">
+                        <a href=""><img src="./icons/telegram.svg" alt=""></a>
+                        <a href=""><img src="./icons/icons8-instagram.svg" alt=""></a>
+                        <a href=""><img src="./icons/icons8-youtube.svg" alt=""></a>
+                        <a href=""><img src="./icons/facebook.svg" alt=""></a>
                     </div>
                 </div>
             </div>
